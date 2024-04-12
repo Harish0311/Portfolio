@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: 'Dancin';
+    src: url('Font/DancingScript-Regular.ttf') format('truetype');
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.underlined {
+    text-decoration: underline; /* Add underline to the text */
+}
+/* Styles for the strips */
+.strip {
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+
+}
+
+/* Define colors for each strip */
+.strip1 {
+    background-color: #000000; /* Red */
+}
+.NameFont{
+    color: #FFCE50;
+    font-family: 'Dancin',cursive;
+    font-size: 130px;
+    margin: 0;
+}
+
+.strip2 {
+    background-color: #FFCE50; /* Yellow */
+    top: 100px; /* Adjust top position */
+}
+
+.strip3 {
+    background-color: #875914; /* Blue */
+    top: 200px; /* Adjust top position */
+}
+
+/* Add more strips and adjust top positions as needed */
